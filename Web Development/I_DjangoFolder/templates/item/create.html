@@ -1,0 +1,6 @@
+<form action="/item/save" method="POST">
+    {% csrf_token %}
+    item_name:<input type="text" name="itemName" />
+
+    <input type="submit" value="save" />
+</form>

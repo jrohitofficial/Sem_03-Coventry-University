@@ -1,0 +1,53 @@
+<html>
+
+    <head> </head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- From https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h  -->
+
+    <body style="background-color: greenyellow;">
+
+        <div class = "col-lg-1" style="background-color: yellow; height: 100vh; position: static">
+
+            <ul class = "list-group">
+                <li class="list-group-item list-group-item-action" style="font-size: 20px; background-color: yellow"> Item </li>
+                <li class="list-group-item list-group-item-action" style="font-size: 20px;background-color: yellow"> Customer </li>
+                <li class="list-group-item list-group-item-action" style="font-size: 20px;background-color: yellow"> Book </li>
+                <li class="list-group-item list-group-item-action" style="font-size: 20px;background-color: yellow"> User </li>
+                <li class="list-group-item list-group-item-action" style="font-size: 20px;background-color: yellow"> History </li>
+            </ul>
+
+        </div>
+
+
+        <div class = "col-lg-2 collapse-section" style="position: relative;">
+            <button data-toggle="collapse" data-target="#textdata"> click me </button>
+            
+            <div id ="textdata" class="collapse"> HW  </div>
+        </div>
+
+
+        <div class="dropdown">
+            <button type = "button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                Button here.
+            </button>
+
+            <div class = "dropdown-menu">
+                <a class="dropdown-item" href="#"> Link1 </a>
+                <a class="dropdown-item" href="#"> Link2 </a>
+                <a class="dropdown-item" href="#"> Link3 </a>
+
+            </div>
+
+        </div>
+
+
+
+
+
+    </body>
+
+</html>

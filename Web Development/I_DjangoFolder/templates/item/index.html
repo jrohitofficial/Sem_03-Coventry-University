@@ -1,0 +1,19 @@
+item index page
+
+
+<table>
+    <tr>
+        <th>item id</th>
+        <th>item name</th>
+    </tr>
+
+    {% for item in items %}
+
+    <tr>
+        <th> {{item.id}} </th>
+        <th> {{item.itemName}} </th>
+    </tr>
+
+    {%endfor%}
+
+</table>

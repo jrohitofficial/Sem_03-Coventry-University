@@ -1,0 +1,169 @@
+<!DOCTYPE html> <!--- Type of html. This is HTML 5 -->
+
+<html> 
+    <head>
+        <meta charset = "UTF-8">
+        <!-- meta: Data of data, Information about the website. -->
+
+        <title> Tiltle it is </title>    
+
+        <style>
+            ul{
+                list-style: none;
+                display:flex;
+            }
+            li{
+                margin-left: 10px;
+            }
+
+        </style>
+    </head>
+
+    <body style = "background:black"> 
+        <div class="Container"> 
+            <div class="Top Bar" style="background: red; height: 50px;display:flex;"> 
+                
+                <div class = "Logo" style="background: rgb(68, 53, 53); height: 50px; width:5%"> 
+                    <img src="images/logo1.jpeg" alt="Image not found" height="100%" width = "100%"/> 
+                </div> 
+
+                <div class = "Remaining Part" style="height:50px; width: 95%; background:red ;"> 
+                    <div class="Button Section" style="float:right; margin: 15px">
+                        <button> Log In </button>
+                        <button> Sign Up </button>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="Nav Bar" style = "background:red" > 
+                <ul>
+                    <li> <a href="Home.html"> Home </a></li>
+                    <li> <a href="AboutUs.html">About us</a></li>
+                    <li> <a href="Gallery.html">Gallery</a></li>
+                </ul>
+
+                <!-- 
+                <dl>
+                    <dt>Name</dt>
+                    <dd>Something</dd>
+                </dl>
+            -->
+
+            </div>
+
+            <div class="Main Body" style="background: yellow; height: Calc(100vh - 150px);"> 
+
+                <div class = "Search Bar" style="background: blue; height: 6%;"> 
+                    Search Bar
+                </div>
+
+                <div class="Product Section" style="background-color: aqua; height : 94%;">
+                
+                    <div class="Product 1" style="background: red; height: 90%; width: 30%; float: left;margin: 20px;">
+                        Product 1
+                        
+                        <div class = "Product 1 photo" style="height: 30%; width:30%; margin-left: 140px;"> 
+                            <img src="images/logo1.jpeg" alt="Image not found" height="100%" width = "100%"/> 
+                        </div> 
+
+                        <button style="float:right; margin-right: 190px; margin-top: 10px;"> Buy </button>
+
+                        <div class="Product 1 description" style="height: 50%; width: 90%; background: rgb(175, 223, 65); margin-top: 40px; margin-left: 20px;">
+                        Description of Product 1 it is.
+                        </div>
+
+
+                    </div> 
+
+                    <div class="Product 2" style="background: yellow; height: 90%; width: 30%; float:left;  margin: 20px;">
+                        Product 2
+                        
+                        <div class = "Product 2 photo" style="height: 30%; width:30%; margin-left: 150px;"> 
+                            <img src="images/logo.jpg" alt="Image not found" height="100%" width = "100%"/> 
+                        </div> 
+
+                        <button style="float:right; margin-right: 190px; margin-top: 10px;"> Buy </button>
+
+                        <div class="Product 2 description" style="height: 50%; width: 90%; background: green;margin-top: 40px; margin-left: 20px;">
+                        Description of Product 2 it is.
+                        </div>
+
+                    </div>
+
+                    
+                    <div class="Product 3" style="background: yellowgreen; height: 90%; width: 30%; float:right; margin: 20px;">
+                        Product 3
+                        
+                        <div class = "Product 3 photo" style="height: 30%; width:20%; margin-left: 150px;"> 
+                            <img src="images/cube.jpg" alt="Image not found" height="100%" width = "100%"/> 
+                        </div>
+                        
+                        <button style="float:right; margin-right: 190px; margin-top: 10px;"> Buy </button>
+
+                        <div class="Product 3 description" style="height: 50%; width: 90%; background: purple; margin-top: 40px; margin-left: 20px;">
+                        Description of Product 3 it is.
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="Footer" style="background: red; height: 30px; display: flex;"> 
+                <div class = "copywrite" style="width: 75%;"> &copy; copywrite </div>
+                
+                <div class = "social media" style="width: 25%;"> Icons get here </div>
+
+            </div>
+        </div>
+    </body>
+
+</html>
+
+
+
+
+
+
+<!---   style="display:flex"   => used to adjust the div horizontally   width is automaticaly adjusted 
+
+        style="float:left"  => keeps the exact width of the div
+
+        height: Makes the height of div exact, if it not used; 
+                height is adjusted automatically according to the content inside the div.
+
+        padding: Gap between div(container) and content; the div(container) expands
+                 Creates gap in all 4 directions
+
+        <span> </span> : Div but that automatically stays in the same horizontal line.
+                         Takes only required space.  
+                         Inline element: preferabbly at last i.e. inside div 
+
+
+
+
+
+Attributes:
+
+    a) input: type, name, placeholder, value, class, id
+    b) img : src, alt
+    c) a : href
+    d) link : href, ref    To link CSS and HTML through class.
+    
+
+
+Semantics:
+            Same as div with different names to find what the inner content will do
+
+            e.g. <main> </main> instead of <div> </div>
+                There is no difference between main and div.
+
+
+
+Steps to make a website:
+    a) Wireframe: The exact location & size/space of each element/content.                
+    b) Actual work.
+
+-->
